@@ -67,6 +67,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  overflow-y:hidden;
 }
 .wrapper .color-inputs .inputs-cont .bi-plus-lg {
   width: 9%;
