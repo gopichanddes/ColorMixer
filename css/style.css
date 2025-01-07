@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  overflow-x: hidden;
+  font-family: inter;
+}
+
+body {
+  background: linear-gradient(90deg, #ffae00, #ff2f89);
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+}
+.wrapper .color-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 35%;
+  border-radius: 0.6rem;
+  position: absolute;
+  left: 32%;
+  bottom: 25%;
+  height: 45%;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.03);
+  overflow-y: hidden;
+  transition: 0.7s;
+}
+.wrapper .color-inputs .check-accur {
+  margin-top: 2%;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-decoration: underline;
+  display: none;
+  cursor: pointer;
+}
+.wrapper .color-inputs hr {
+  margin-bottom: 8%;
+  color: rgb(132, 132, 132);
+}
+.wrapper .color-inputs .logo-cont {
+  width: 100%;
+  height: 55%;
+  text-align: center;
+  padding: 5%;
+}
+.wrapper .color-inputs .logo-cont img {
+  width: 35%;
+  margin-bottom: 1%;
+  padding: 0;
+}
+.wrapper .color-inputs .logo-cont p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  color: rgb(58, 58, 58);
+}
+.wrapper .color-inputs .inputs-cont {
+  width: 70%;
+  height: 25%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .color-inputs .inputs-cont .bi-plus-lg {
+  width: 9%;
+  font-size: 1.5rem;
+  margin-left: 2.5%;
+  color: rgb(217, 217, 217);
+}
+.wrapper .color-inputs .inputs-cont .bi-arrow-right {
+  font-size: 1.5rem;
+  width: 10%;
+  color: rgb(217, 217, 217);
+}
+.wrapper .color-inputs .inputs-cont input {
+  width: 15%;
+  border-radius: 0.4rem;
+  height: 3.2rem;
+  border: none !important;
+  outline: 0 !important;
+  padding: 2px;
+}
+.wrapper .color-inputs .inputs-cont .second-color-input {
+  margin: 2%;
+}
+.wrapper .color-inputs .inputs-cont button {
+  width: 45%;
+  padding: 0% 0;
+  margin: 0;
+  height: 3.2rem;
+  border: none;
+  background: linear-gradient(120deg, #ffae00, #ff2f89);
+  color: white;
+  border-radius: 0.4rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-left: 2.5%;
+  animation: gradientShift 3s infinite linear;
+}
+.wrapper .color-inputs .inputs-cont button i {
+  margin-right: 5%;
+}/*# sourceMappingURL=style.css.map */
